@@ -11,7 +11,7 @@ entity RippleCarry is
 end RippleCarry;
 
 architecture LogicFunction of RippleCarry is
-signal c1 : STD_LOGIC_VECTOR(1 to 3);
+signal c : STD_LOGIC_VECTOR(1 to 3);
 component RippleCarry
     port(
         Cin, x, y :in STD_LOGIC;

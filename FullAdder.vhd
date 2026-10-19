@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 entity FullAdder is
     port(
         a, b, c :in STD_LOGIC;
-        Sum, Carry :out STD_LOGIC;
+        Sum, Carry :out STD_LOGIC
     );
 end FullAdder;
 
